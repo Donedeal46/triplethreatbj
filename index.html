@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Triple Threat: Blackjack</title>
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body { background: #0a0a0a; color: #fff; font-family: Arial, sans-serif; text-align: center; }
+    header { padding: 60px 20px 40px; background: linear-gradient(180deg, #1E7A30 0%, #0a0a0a 100%); }
+    .logo { font-size: 64px; margin-bottom: 10px; }
+    h1 { font-size: 2.8em; color: #D4AF37; font-weight: 900; letter-spacing: 4px; margin-bottom: 6px; }
+    .patent { color: #888; font-size: 11px; letter-spacing: 3px; margin-bottom: 16px; }
+    .tagline { color: #ccc; font-size: 1.2em; max-width: 500px; margin: 0 auto 30px; line-height: 1.6; }
+    .badges { display: flex; justify-content: center; gap: 16px; flex-wrap: wrap; margin-bottom: 50px; }
+    .badge { background: #1a1a1a; border: 1px solid #333; border-radius: 12px; padding: 14px 24px; font-size: 13px; color: #aaa; }
+    .badge strong { color: #D4AF37; display: block; font-size: 18px; }
+    .section { padding: 50px 20px; max-width: 700px; margin: 0 auto; }
+    .how { background: #111; border-radius: 20px; padding: 40px; margin-bottom: 40px; border: 1px solid #222; }
+    .how h2 { color: #D4AF37; font-size: 1.4em; letter-spacing: 3px; margin-bottom: 24px; }
+    .step { display: flex; align-items: flex-start; gap: 16px; margin-bottom: 20px; text-align: left; }
+    .step-num { background: #D4AF37; color: #000; width: 32px; height: 32px; border-radius: 50%; display: flex; align-items: center; justify-content: center; font-weight: 900; flex-shrink: 0; }
+    .step p { color: #ccc; line-height: 1.5; }
+    .step p strong { color: #fff; }
+    .download { padding: 50px 20px; }
+    .download h2 { color: #D4AF37; font-size: 1.3em; letter-spacing: 3px; margin-bottom: 8px; }
+    .download p { color: #666; font-size: 12px; margin-bottom: 30px; }
+    .btn { display: inline-block; background: linear-gradient(180deg, #FFE55C, #D4AF37, #A07800); color: #000; font-weight: 900; font-size: 16px; letter-spacing: 2px; padding: 16px 40px; border-radius: 30px; text-decoration: none; margin: 8px; }
+    .btn-secondary { background: #1a1a1a; color: #D4AF37; border: 2px solid #D4AF37; }
+    .features { display: grid; grid-template-columns: repeat(auto-fit, minmax(180px, 1fr)); gap: 16px; margin-bottom: 40px; }
+    .feature { background: #111; border: 1px solid #222; border-radius: 14px; padding: 24px 16px; }
+    .feature .icon { font-size: 32px; margin-bottom: 10px; }
+    .feature h3 { color: #D4AF37; font-size: 13px; letter-spacing: 1px; margin-bottom: 6px; }
+    .feature p { color: #777; font-size: 11px; line-height: 1.5; }
+    footer { padding: 30px; border-top: 1px solid #1a1a1a; color: #444; font-size: 10px; }
+    footer a { color: #666; }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="logo">🃏</div>
+    <h1>TRIPLE THREAT</h1>
+    <div style="color:#D4AF37;font-size:1.4em;font-weight:900;letter-spacing:8px;margin-bottom:6px;">BLACKJACK</div>
+    <div class="patent">PATENT PENDING · TRADEMARK PENDING</div>
+    <p class="tagline">The world's first 3-hand blackjack game where YOU arrange your own cards. One shoe. Six cards. Three simultaneous hands.</p>
+    <div class="badges">
+      <div class="badge"><strong>6</strong>Cards Dealt</div>
+      <div class="badge"><strong>3</strong>Hands Played</div>
+      <div class="badge"><strong>1</strong>Decision</div>
+      <div class="badge"><strong>∞</strong>Strategy</div>
+    </div>
+  </header>
+
+  <div class="section">
+    <div class="how">
+      <h2>HOW IT WORKS</h2>
+      <div class="step"><div class="step-num">1</div><p><strong>Receive 6 cards</strong> — dealt face up from a 7-deck shoe</p></div>
+      <div class="step"><div class="step-num">2</div><p><strong>Arrange them</strong> — place 2 cards into each of your 3 hands strategically</p></div>
+      <div class="step"><div class="step-num">3</div><p><strong>Play all 3 hands</strong> — hit, stand, split, or double on each hand independently</p></div>
+      <div class="step"><div class="step-num">4</div><p><strong>Win all 3</strong> — earn the Triple Threat Bonus on top of all winnings!</p></div>
+    </div>
+
+    <div class="features">
+      <div class="feature"><div class="icon">🎯</div><h3>SIDE BETS</h3><p>15 hand combinations pay up to 500,000:1</p></div>
+      <div class="feature"><div class="icon">🏆</div><h3>TOURNAMENTS</h3><p>Compete against 14 AI players for prize chips</p></div>
+      <div class="feature"><div class="icon">🔥</div><h3>WIN STREAKS</h3><p>Build streaks across all 3 hands simultaneously</p></div>
+      <div class="feature"><div class="icon">🏅</div><h3>40 BADGES</h3><p>5 tiers of achievements to unlock</p></div>
+      <div class="feature"><div class="icon">💎</div><h3>VIP TIERS</h3><p>Bronze to Diamond with exclusive table themes</p></div>
+      <div class="feature"><div class="icon">👥</div><h3>FRIENDS</h3><p>Share codes, compare stats, earn referral bonuses</p></div>
+    </div>
+  </div>
+
+  <div class="download">
+    <h2>COMING SOON</h2>
+    <p>Available on iOS and Android</p>
+    <a href="#" class="btn">App Store</a>
+    <a href="#" class="btn btn-secondary">Google Play</a>
+    <br><br>
+    <p style="color:#444;font-size:11px;">Social casino game · No real money gambling · For entertainment only</p>
+  </div>
+
+  <footer>
+    <p>© 2026 Done Deal Entertainment LLC · Chicago, IL · <a href="mailto:issac@donedealstudios.com">issac@donedealstudios.com</a></p>
+    <p style="margin-top:6px;">Triple Threat: Blackjack™ · Patent Pending · Trademark Pending</p>
+  </footer>
+</body>
+</html>
